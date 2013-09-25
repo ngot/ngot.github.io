@@ -1,13 +1,11 @@
 
-http://username.github.io/archive.html
-http://username.github.io/atom.xml
-http://username.github.io/categories.html
-http://username.github.io/index.html
-http://username.github.io/pages.html
-http://username.github.io/rss.xml
-http://username.github.io/sitemap.txt
-http://username.github.io/tags.html
+http://ngot.github.io/archive.html
+http://ngot.github.io/atom.xml
+http://ngot.github.io/categories.html
+http://ngot.github.io/index.html
+http://ngot.github.io/pages.html
+http://ngot.github.io/rss.xml
+http://ngot.github.io/sitemap.txt
+http://ngot.github.io/tags.html
 
-http://username.github.io/2013/09/25/ss
-http://username.github.io/lessons/2013/09/25/post
-http://username.github.io/lessons/2011/12/29/jekyll-introduction
+http://ngot.github.io/%E9%9A%8F%E7%AC%94/2013/09/25/ss

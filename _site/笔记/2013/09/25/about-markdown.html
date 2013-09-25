@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/css/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>轻量级标记语言 MarkDown</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <a href="/"><h1>Ngot</h1></a>
+        <h2>for the dream</h2>
+        <a href="https://github.com/ngot" class="button" target='_blank'><small>Follow me on</small>GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h2>轻量级标记语言 MarkDown</h2>
+<p class="meta">25 Sep 2013</p>
+
+<div class="post">
+<hr>
+
+<h2>前言</h2>
+
+<p>最近发现轻量级<a href="http://zh.wikipedia.org/wiki/%E6%A0%87%E8%AE%B0%E8%AF%AD%E8%A8%80">标记语言</a>写笔记的巨大优势，如<a href="http://zh.wikipedia.org/wiki/Markdown">MarkDown</a><a href="%E8%BF%99%E7%AF%87%5B%E6%96%87%E7%AB%A0%5D(http://wowubuntu.com/markdown/)%E4%B8%AD%E6%9C%89%E5%BE%88%E5%A5%BD%E7%9A%84%E8%AF%AD%E6%B3%95%E4%BB%8B%E7%BB%8D%E3%80%82%E5%8F%A6%E5%A4%96%EF%BC%8C%E5%A4%9A%E7%A7%8D%E6%A0%87%E8%AE%B0%E8%AF%AD%E8%A8%80%E4%B9%8B%E9%97%B4%E7%9A%84%E6%AF%94%E8%BE%83%E5%8F%AF%E4%BB%A5%E5%8F%82%E8%80%83%5B%E8%BF%99%E9%87%8C%5D(http://www.worldhello.net/gotgithub/appendix/markups.html)%E3%80%82%E8%BF%94%E5%9B%9E">^1</a>、<a href="http://docutils.sourceforge.net/rst.html">reStructuredText</a><a href="%E8%99%BD%E7%84%B6reST%E4%B8%8EPython%E6%9C%89%E4%BA%9B%E8%AE%B8%E6%B8%8A%E6%BA%90%EF%BC%8C%E4%B8%8D%E8%BF%87%E6%88%91%E8%A7%89%E5%BE%97%E8%BF%98%E6%98%AFMD%E5%9C%A8%E8%AF%AD%E6%B3%95%E4%B8%8A%E6%9B%B4%E5%8A%A0%E6%98%93%E7%94%A8%E4%B8%80%E4%BA%9B%E3%80%82%E8%BF%94%E5%9B%9E">^2</a>等等。在写这篇文章的时候，起初是要写关于MarkDown的<a href="http://www.sublimetext.com/">Sublime Text</a>插件，不过在写之前，我打算直接使用MarkDown编写这些文字。</p>
+
+<p>有趣的是，在写的过程中我还发现了一个更加方便快捷的工具：</p>
+
+<ul>
+<li><p><a href="http://mouapp.com">Mou</a>是一个Mac平台上的免费软件，用于编写基于MarkDown的文档：</p>
+
+<ul>
+<li>界面轻便简洁，编辑界面的左边为原始内容（附带一些着色效果），右边为加上CSS后的HTML实现效果，一目了然</li>
+<li>提供了全面的语法帮助。这对初学者来说的确不错，尽管标记语言语法十分简单</li>
+<li>另外，在MarkDown语法基础上，Mou还加入了更加方便的脚注功能[^3]</li>
+<li>附上Mou的界面：</li>
+</ul>
+
+<p><img src="/assets/images/posts/2012-12-15-Mou.png" alt="Mou-screenshot"></p></li>
+<li><p>在安装合适的编辑器之前，还可以使用在线编辑方式直接显示结果，例如<a href="http://dillinger.io">Dillinger</a>。这也有助于简单快捷地入门MarkDown的语法。它还支持<a href="https://www.dropbox.com">Dropbox</a>：）</p></li>
+<li><p>其它平台软件可以参考<a href="http://wowubuntu.com/markdown/">这里</a>，目前还没有尝试过不做评论了</p></li>
+</ul>
+
+<hr>
+
+<h2>MarkDown的魔力</h2>
+
+<p>由于笔者不通HTML语言，但是又想写出美观工整的博文，怎么办？于是天上掉下来一个轻量级标记语言MarkDown</p>
+
+<ul>
+<li><p>由于轻量级的标记语言在语法上十分简单，从原始文本就能够读懂内容，相比HTML这样的“重度”标记语言（标记太多了：）就轻量很多了</p></li>
+<li><p>MD之类的标记语言拥有许多工具可以直接将其转换成自定的HTML样式，因此在写一些读书笔记、心得时可以直接用MarkDown语法编写，省去了考虑文字样式的过程，以免影响思路</p></li>
+<li><p>像下文一样快捷地添加代码块，并且可以实现不同的着色效果</p></li>
+<li><p>原始文本与样式之间完全分开，更换前端样式更加简单快捷</p></li>
+<li><p>之前已近习惯使用Evernote（印象笔记）作为强大的信息收集工具，现在，完全可以直接在Evernote中以标记语言的语法记录心得了。甚至，将转换后美观的HTML页面直接保存在笔记中</p></li>
+</ul>
+
+<hr>
+
+<h2>Sublime Text 插件</h2>
+
+<p>鉴于不同的解释器所表现的HTML效果不尽相同，最好选择一个接近标准的解释器及其广泛使用的额外插件，以免格式过于小众影响不同平台上的转换效果。由于博客使用GitHub推荐的jekyll，因此使用一个编辑器+command tool的方式全自动生成html文件预览最终效果将会更加方便。</p>
+
+<p><a href="http://www.sublimetext.com/">Sublime Text</a>很好很强大，我最喜欢用的文本编辑器，因为它还附带了轻量级的编译功能，小段代码的测试很方便。这里不多介绍以免抢了MD风头：）SublimeText拥有MarkDown相应的插件，可以用于快速编辑，详细可见这里的<a href="http://lucifr.com/2012/07/12/markdownediting-for-sublime-text-2/">教程</a></p>
+
+<ul>
+<li><p>首先需要安装Sublime Text的Package Control。</p>
+
+<p>在控制台( Control+` )中键入：</p></li>
+</ul>
+
+<div class="highlight"><pre><code class="python">   <span class="kn">import</span> <span class="nn">urllib2</span><span class="o">,</span><span class="nn">os</span><span class="p">;</span><span class="n">pf</span><span class="o">=</span><span class="s">&#39;Package Control.sublime-package&#39;</span><span class="p">;</span><span class="n">ipp</span><span class="o">=</span><span class="n">sublime</span><span class="o">.</span><span class="n">installed_packages_path</span><span class="p">();</span><span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">ipp</span><span class="p">)</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">ipp</span><span class="p">)</span> <span class="k">else</span> <span class="bp">None</span><span class="p">;</span><span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">ipp</span><span class="p">,</span><span class="n">pf</span><span class="p">),</span><span class="s">&#39;wb&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">urllib2</span><span class="o">.</span><span class="n">urlopen</span><span class="p">(</span><span class="s">&#39;http://sublime.wbond.net/&#39;</span><span class="o">+</span><span class="n">pf</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">&#39; &#39;</span><span class="p">,</span><span class="s">&#39;%20&#39;</span><span class="p">))</span><span class="o">.</span><span class="n">read</span><span class="p">())</span>
+</code></pre></div>
+
+<ul>
+<li><p>在Package Control中选择Install Package，查找MarkDownBuild、MarkDownPreview、MarkDownEditing进行安装</p></li>
+<li><p>安装MarkDownEditing后，只要打开md或者txt等等扩展名的文件即可实现MD相关的快捷编辑功能了，Package Setting中可以找到更详细的设置，例如字体、样式、宽度、对应扩展名等等</p></li>
+<li><p>安装MarkDownBuild,MarkDownPreview则能直接使用Build生成页面并使用默认浏览器打开，展示效果</p></li>
+</ul>
+
+<hr>
+
+<h3>脚注</h3>
+
+<p>[^3]: 在博客中利用<a href="http://pages.github.com">GitHub Page</a>提供的<a href="https://github.com/mojombo/jekyll">jekyll</a>工具自动化地编译静态网页，Mou使用的脚注功能在jekyll中没有实现，因为MarkDown的标准语法中没有脚注，参见官方关于脚注的<a href="http://daringfireball.net/2005/07/footnotes#fn1-2005-07-20">说明</a>（我没看完其实）</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">在
+
+    $ jekyll --help
+
+中可以发现，jekyll包含使用不同转换引擎的选项：
+
+    --rdiscount                  Use rdiscount gem for Markdown
+    --redcarpet                  Use redcarpet gem for Markdown
+    --kramdown                   Use kramdown gem for Markdown
+
+默认引擎为[Maruku](http://maruku.rubyforge.org/)，在官方文档的配置说明中发现，kramdown下有一个默认参数footnote_nr: 1，那么显然kramdown是支持脚注功能的，用法参照Mou进行尝试，成功。之后找到其[主页](http://kramdown.rubyforge.org/index.html)，以及脚注的[语法](http://kramdown.rubyforge.org/syntax.html#footnotes)。这个解释器还是蛮强大的，对MarkDown语法做了许多扩展。似乎还支持html到md的反向转换？逆天了：
+
+![kramdown](/assets/images/posts/2012-12-16-kramdown.png)
+
+此外，Python实现的MarkDown解释器[py-markdown2][]中也包含对脚注实现的插件（[Extra](https://github.com/trentm/python-markdown2/wiki/footnotes))。
+甚至是基于jekyll的Python实现[Hyde](http://ringce.com/hyde)。返回
+</code></pre></div>
+</div>
+
+        </section>
+
+        <aside id="sidebar">
+          <p>分类</p>
+        </aside>
+      </div>
+    </div>
+    
+    <footer style="display: block;margin-top: 20px;clear: both;text-align: center;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;font-size: 18px;">
+      <hr>
+      <p style="">
+        Copyright&copy; 2013- Ngot，转载请注明出处。 —— Gernerated by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>
+        with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+      </p>
+      <p style=""> 
+        Maintained on <a href="https://github.com/ngot" target="_blank">ngot@github</a>
+      </p>
+    </footer>
+  
+  </body>
+</html>

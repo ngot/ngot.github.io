@@ -102,3 +102,5 @@ facebook_like: false
 # Sina Weibo
 weibo_sharing: true
 
+# like
+like: true

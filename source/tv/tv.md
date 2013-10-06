@@ -4,7 +4,7 @@ title: Ngot's Blog|网路电视
 footer: false
 ---
 <div style="width:100%;height:100%">
-<iframe width="100%" height="100%" rel="nofollow" src="http://live.64ma.com/tv/live.html" frameborder="0" border="0" marginwidth="0" marginheight="0" scrolling="yes"></iframe>
+<iframe width="100%" height="600px" rel="nofollow" src="http://www.fengyunzhibo.com/mini/feng-yunmini.htm?from=guanganyi" frameborder="0" border="0" marginwidth="0" marginheight="0" scrolling="yes"></iframe>
 </div>
 
 <!-- Baidu Button BEGIN --> 

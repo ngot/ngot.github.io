@@ -1,28 +1,142 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Ngot's blog]]></title>
-  <link href="http://ngot.github.com/atom.xml" rel="self"/>
-  <link href="http://ngot.github.com/"/>
-  <updated>2013-10-06T22:48:30+08:00</updated>
-  <id>http://ngot.github.com/</id>
-  <author>
-    <name><![CDATA[ngot]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Markdown语法说明 - Ngot's blog</title>
+  <meta name="author" content="ngot">
 
   
-  <entry>
-    <title type="html"><![CDATA[Markdown语法说明]]></title>
-    <link href="http://ngot.github.com/blog/2013/10/06/markdown-syntax/"/>
-    <updated>2013-10-06T22:40:00+08:00</updated>
-    <id>http://ngot.github.com/blog/2013/10/06/markdown-syntax</id>
-    <content type="html"><![CDATA[<p><strong>声明：</strong> 这份文档派生(fork)于<a href="http://markdown.tw/">繁体中文版</a>，在此基础上进行了繁体转简体工作，并进行了适当的润色。此文档用 Markdown 语法编写，你可以到这里<a href="http://gitcafe.com/riku/Markdown-Syntax-CN/blob/master/syntax.md">查看它的源文件</a>。「繁体中文版的原始文件可以<a href="https://github.com/othree/markdown-syntax-zhtw/blob/master/syntax.md">查看这里</a> 。」–By @<a href="http://twitter.com/riku">riku</a></p>
+  <meta name="description" content="声明： 这份文档派生(fork)于繁体中文版，在此基础上进行了繁体转简体工作，并进行了适当的润色。此文档用 Markdown 语法编写，你可以到这里查看它的源文件。「繁体中文版的原始文件可以查看这里 。」–By @riku 注： 本项目托管于 GitCafe上，请通过”派生”和”合并请求” &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://ngot.github.com/blog/2013/10/06/markdown-syntax/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Ngot's blog" type="application/atom+xml">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <!-- <div id="logo">
+    <div id="logoLeft">{</div>
+    <div id="logoText">ep</div>
+    <div id="logoRight">}</div>
+    <div class="clear"></div>
+  </div> -->
+  <h1><a href="/">Ngot's blog</a>
+  
+  </h1>
+  <div class="clear"></div>
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:ngot.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">博客</a></li>
+  <li><a href="/blog/archives">文章</a></li>
+  <li><a href="/about">关于</a></li>
+  <li><a href="/tv" >网路电视</a></li>
+</ul>
+
+</nav>
+  <div id="main" class="jiathis_streak">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      
+        <h1 class="entry-title">Markdown语法说明</h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-10-06T22:40:00+08:00" pubdate data-updated="true">Oct 6<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p><strong>声明：</strong> 这份文档派生(fork)于<a href="http://markdown.tw/">繁体中文版</a>，在此基础上进行了繁体转简体工作，并进行了适当的润色。此文档用 Markdown 语法编写，你可以到这里<a href="http://gitcafe.com/riku/Markdown-Syntax-CN/blob/master/syntax.md">查看它的源文件</a>。「繁体中文版的原始文件可以<a href="https://github.com/othree/markdown-syntax-zhtw/blob/master/syntax.md">查看这里</a> 。」–By @<a href="http://twitter.com/riku">riku</a></p>
 
 <p><strong>注：</strong> 本项目托管于 <a href="http://gitcafe.com/riku/Markdown-Syntax-CN/">GitCafe</a>上，请通过”派生”和”合并请求”来帮忙改进本项目。</p>
 
-<h1 id="markdown----blog20131006markdown-get-start">Markdown 语法说明 (简体中文版) / (<a href="http://ngot.github.com/blog/2013/10/06/markdown-get-start/">点击查看快速入门</a>)</h1>
+<h1 id="markdown----blog20131006markdown-get-start">Markdown 语法说明 (简体中文版) / (<a href="/blog/2013/10/06/markdown-get-start/">点击查看快速入门</a>)</h1>
 
 <ul>
   <li><a href="#overview">概述</a>
@@ -846,464 +960,224 @@ _   底线
 </ul>
 
 <p>*** 如有更好的 Markdown 免费编辑器推荐，请到<a href="https://gitcafe.com/riku/Markdown-Syntax-CN/tickets/1">这里反馈</a>，谢谢！</p>
-]]></content>
-  </entry>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
   
-  <entry>
-    <title type="html"><![CDATA[Markdown快速入门]]></title>
-    <link href="http://ngot.github.com/blog/2013/10/06/markdown-get-start/"/>
-    <updated>2013-10-06T22:38:00+08:00</updated>
-    <id>http://ngot.github.com/blog/2013/10/06/markdown-get-start</id>
-    <content type="html"><![CDATA[<p><strong>声明：</strong> 这份文档派生(fork)于<a href="http://markdown.tw/">繁体中文版</a>，在此基础上进行了繁体转简体工作，并进行了适当的润色。此文档用 Markdown 语法编写，你可以到这里<a href="http://gitcafe.com/riku/Markdown-Syntax-CN/blob/master/basics.md">查看它的源文件</a>。「繁体中文版的原始文件可以<a href="https://github.com/othree/markdown-syntax-zhtw/blob/master/basics.md">查看这里</a>」–By @<a href="http://twitter.com/riku">riku</a></p>
 
-<p><strong>注：</strong> 本项目托管于 <a href="http://gitcafe.com/riku/Markdown-Syntax-CN/">GitCafe</a>上，请通过”派生”和”合并请求”来帮忙改进本项目。</p>
+<span class="byline author vcard">Posted by <span class="fn">ngot</span></span>
 
-<h1 id="markdown-basics---blog20131006markdown-syntax">Markdown: Basics （快速入门） / (<a href="http://ngot.github.com/blog/2013/10/06/markdown-syntax/">点击查看完整语法说明</a>)</h1>
+      
 
-<h2 id="getting-the-gist-of-markdowns-formatting-syntax">Getting the Gist of Markdown’s Formatting Syntax</h2>
 
-<p>此页提供了 Markdown 的简单概念， <a href="http://gitcafe.com/riku/Markdown-Syntax-CN/blob/master/syntax.md" title="Markdown Syntax">语法说明</a> 页提供了完整详细的文档，说明了每项功能。但是 Markdown 其实很简单就可以上手，此页文档提供了一些范例，并且每个范例都会提供输出的 HTML 结果。</p>
 
-<p>其实直接试试看也是一个很不错的方法， <a href="http://daringfireball.net/projects/markdown/dingus" title="Markdown Dingus">Dingus</a> 是一个网页应用程序，你可以把自已编写的 Markdown 文档转成 XHTML。</p>
 
-<h2 id="section">段落、标题、区块代码</h2>
 
-<p>一个段落是由一个以上的连接的行句组成，而一个以上的空行则会划分出不同的段落（空行的定义是显示上看起来像是空行，就被视为空行，例如有一行只有空白和 tab，那该行也会被视为空行），一般的段落不需要用空白或换行缩进。</p>
 
-<p>Markdown 支持两种标题的语法，<a href="http://docutils.sourceforge.net/mirror/setext.html">Setext</a> 和 <a href="http://www.aaronsw.com/2002/atx/">atx</a> 形式。Setext 形式是用底线的形式，利用 <code>=</code> （最高阶标题）和 <code>-</code> （第二阶标题），Atx 形式在行首插入 1 到 6 个 <code>#</code> ，对应到标题 1 到 6 阶。</p>
 
-<p>区块引用则使用 email 形式的 ‘<code>&gt;</code>’ 角括号。</p>
 
-<p>Markdown 语法:</p>
-
-<pre><code>A First Level Header
-====================
-A Second Level Header
----------------------
-
-Now is the time for all good men to come to
-the aid of their country. This is just a
-regular paragraph.
-
-The quick brown fox jumped over the lazy
-dog's back.
-### Header 3
-
-&gt; This is a blockquote.
-&gt; 
-&gt; This is the second paragraph in the blockquote.
-&gt;
-&gt; ## This is an H2 in a blockquote
-</code></pre>
-
-<p>输出 HTML 为：</p>
-
-<pre><code>&lt;h1&gt;A First Level Header&lt;/h1&gt;
-&lt;h2&gt;A Second Level Header&lt;/h2&gt;
-&lt;p&gt;Now is the time for all good men to come to
-the aid of their country. This is just a
-regular paragraph.&lt;/p&gt;
-&lt;p&gt;The quick brown fox jumped over the lazy
-dog's back.&lt;/p&gt;
-&lt;h3&gt;Header 3&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;This is a blockquote.&lt;/p&gt;
-&lt;p&gt;This is the second paragraph in the blockquote.&lt;/p&gt;
-&lt;h2&gt;This is an H2 in a blockquote&lt;/h2&gt;
-&lt;/blockquote&gt;
-</code></pre>
-
-<h3 id="section-1">修辞和强调</h3>
-
-<p>Markdown 使用星号和底线来标记需要强调的区段。</p>
-
-<p>Markdown 语法:</p>
-
-<pre><code>Some of these words *are emphasized*.
-Some of these words _are emphasized also_.
-Use two asterisks for **strong emphasis**.
-Or, if you prefer, __use two underscores instead__.
-</code></pre>
-
-<p>输出 HTML 为:</p>
-
-<pre><code>&lt;p&gt;Some of these words &lt;em&gt;are emphasized&lt;/em&gt;.
-Some of these words &lt;em&gt;are emphasized also&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Use two asterisks for &lt;strong&gt;strong emphasis&lt;/strong&gt;.
-Or, if you prefer, &lt;strong&gt;use two underscores instead&lt;/strong&gt;.&lt;/p&gt;
-</code></pre>
-
-<h2 id="section-2">列表</h2>
-
-<p>无序列表使用星号、加号和减号来做为列表的项目标记，这些符号是都可以使用的，使用星号：</p>
-
-<pre><code>* Candy.
-* Gum.
-* Booze.
-</code></pre>
-
-<p>加号：</p>
-
-<pre><code>+ Candy.
-+ Gum.
-+ Booze.
-</code></pre>
-
-<p>和减号</p>
-
-<pre><code>- Candy.
-- Gum.
-- Booze.
-</code></pre>
-
-<p>都会输出 HTML 为：</p>
-
-<pre><code>&lt;ul&gt;
-&lt;li&gt;Candy.&lt;/li&gt;
-&lt;li&gt;Gum.&lt;/li&gt;
-&lt;li&gt;Booze.&lt;/li&gt;
-&lt;/ul&gt;
-</code></pre>
-
-<p>有序的列表则是使用一般的数字接着一个英文句点作为项目标记：</p>
-
-<pre><code>1. Red
-2. Green
-3. Blue
-</code></pre>
-
-<p>输出 HTML 为：</p>
-
-<pre><code>&lt;ol&gt;
-&lt;li&gt;Red&lt;/li&gt;
-&lt;li&gt;Green&lt;/li&gt;
-&lt;li&gt;Blue&lt;/li&gt;
-&lt;/ol&gt;
-</code></pre>
-
-<p>如果你在项目之间插入空行，那项目的内容会用 <code>&lt;p&gt;</code> 包起来，你也可以在一个项目内放上多个段落，只要在它前面缩排 4 个空白或 1 个 tab 。</p>
-
-<pre><code>* A list item.
-With multiple paragraphs.
-
-* Another item in the list.
-</code></pre>
-
-<p>输出 HTML 为：</p>
-
-<pre><code>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;A list item.&lt;/p&gt;
-&lt;p&gt;With multiple paragraphs.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Another item in the list.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt; ### 链接 ###
-</code></pre>
-
-<p>Markdown 支援两种形式的链接语法： <em>行内</em> 和 <em>参考</em> 两种形式，两种都是使用角括号来把文字转成连结。</p>
-
-<p>行内形式是直接在后面用括号直接接上链接：</p>
-
-<pre><code>This is an [example link](http://example.com/).
-</code></pre>
-
-<p>输出 HTML 为：</p>
-
-<pre><code>&lt;p&gt;This is an &lt;a href="http://example.com/"&gt;
-example link&lt;/a&gt;.&lt;/p&gt;
-</code></pre>
-
-<p>你也可以选择性的加上 title 属性：</p>
-
-<pre><code>This is an [example link](http://example.com/ "With a Title").
-</code></pre>
-
-<p>输出 HTML 为：</p>
-
-<pre><code>&lt;p&gt;This is an &lt;a href="http://example.com/" title="With a Title"&gt;
-example link&lt;/a&gt;.&lt;/p&gt;
-</code></pre>
-
-<p>参考形式的链接让你可以为链接定一个名称，之后你可以在文件的其他地方定义该链接的内容：</p>
-
-<pre><code>I get 10 times more traffic from [Google][1] than from
-[Yahoo][2] or [MSN][3].
-
-[1]: http://google.com/ "Google"
-[2]: http://search.yahoo.com/ "Yahoo Search"
-[3]: http://search.msn.com/ "MSN Search"
-</code></pre>
-
-<p>输出 HTML 为：</p>
-
-<pre><code>&lt;p&gt;I get 10 times more traffic from &lt;a href="http://google.com/"
-title="Google"&gt;Google&lt;/a&gt; than from &lt;a href="http://search.yahoo.com/"
-title="Yahoo Search"&gt;Yahoo&lt;/a&gt; or &lt;a href="http://search.msn.com/"
-title="MSN Search"&gt;MSN&lt;/a&gt;.&lt;/p&gt;
-</code></pre>
-
-<p>title 属性是选择性的，链接名称可以用字母、数字和空格，但是不分大小写：</p>
-
-<pre><code>I start my morning with a cup of coffee and
-[The New York Times][NY Times].
-
-[ny times]: http://www.nytimes.com/
-</code></pre>
-
-<p>输出 HTML 为：</p>
-
-<pre><code>&lt;p&gt;I start my morning with a cup of coffee and
-&lt;a href="http://www.nytimes.com/"&gt;The New York Times&lt;/a&gt;.&lt;/p&gt;
-</code></pre>
-
-<h3 id="section-3">图片</h3>
-
-<p>图片的语法和链接很像。</p>
-
-<p>行内形式（title 是选择性的）：</p>
-
-<pre><code>![alt text](/path/to/img.jpg "Title")
-</code></pre>
-
-<p>参考形式：</p>
-
-<pre><code>![alt text][id]
-
-[id]: /path/to/img.jpg "Title"
-</code></pre>
-
-<p>上面两种方法都会输出 HTML 为：</p>
-
-<pre><code>&lt;img src="http://ngot.github.com/path/to/img.jpg" alt="alt text" title="Title" /&gt;
-</code></pre>
-
-<h3 id="section-4">代码</h3>
-<p>在一般的段落文字中，你可以使用反引号 <code>`</code> 来标记代码区段，区段内的 <code>&amp;</code>、<code>&lt;</code> 和 <code>&gt;</code> 都会被自动的转换成 HTML 实体，这项特性让你可以很容易的在代码区段内插入 HTML 码：</p>
-
-<pre><code>I strongly recommend against using any `&lt;blink&gt;` tags.
-
-I wish SmartyPants used named entities like `&amp;mdash;`
-instead of decimal-encoded entites like `&amp;#8212;`.
-</code></pre>
-
-<p>输出 HTML 为：</p>
-
-<pre><code>&lt;p&gt;I strongly recommend against using any
-&lt;code&gt;&amp;lt;blink&amp;gt;&lt;/code&gt; tags.&lt;/p&gt;
-&lt;p&gt;I wish SmartyPants used named entities like
-&lt;code&gt;&amp;amp;mdash;&lt;/code&gt; instead of decimal-encoded
-entites like &lt;code&gt;&amp;amp;#8212;&lt;/code&gt;.&lt;/p&gt;
-</code></pre>
-
-<p>如果要建立一个已经格式化好的代码区块，只要每行都缩进 4 个空格或是一个 tab 就可以了，而 <code>&amp;</code>、<code>&lt;</code> 和 <code>&gt;</code> 也一样会自动转成 HTML 实体。</p>
-
-<p>Markdown 语法:</p>
-
-<pre><code>If you want your page to validate under XHTML 1.0 Strict,
-you've got to put paragraph tags in your blockquotes:
-
-&lt;blockquote&gt;
-&lt;p&gt;For example.&lt;/p&gt;
-&lt;/blockquote&gt;
-</code></pre>
-
-<p>输出 HTML 为：</p>
-
-<pre><code>&lt;p&gt;If you want your page to validate under XHTML 1.0 Strict,
-you've got to put paragraph tags in your blockquotes:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;blockquote&amp;gt;
-&amp;lt;p&amp;gt;For example.&amp;lt;/p&amp;gt;
-&amp;lt;/blockquote&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-</code></pre>
-
-]]></content>
-  </entry>
   
-  <entry>
-    <title type="html"><![CDATA[利用Octopress在github pages上搭建个人博客]]></title>
-    <link href="http://ngot.github.com/blog/2013/10/05/blog/"/>
-    <updated>2013-10-05T22:19:00+08:00</updated>
-    <id>http://ngot.github.com/blog/2013/10/05/blog</id>
-    <content type="html"><![CDATA[<p>github不仅能够提供代码托管和版本控制系统，现在又有了github pages功能，可以让你将个人的博客搭建在此，通过git 工具方便的发布个人博客。由于pages只提供了管理和呈现静态网页的功能，而静态网页的生成则需自己实现。Jekyll工具可用来实现静态网页的生成，但是使用起来相对麻烦，需要对Html,CSS和javascript比较熟悉。作为希望更加关注内容的博客用户来说，Octopress给出了一个更好的选择，Octopress是一个基于Jekyll的博客生成框架，它处理了Jekyll那些麻烦的配置，安装后只需几条简单的命令就可以发布你的博客了。</p>
 
-<p>本文就是基于该系统发布的第一篇，本文记录了在ubuntu 12.04系统下搭建该博客系统的过程，同时也加入了一些自己的配置，比如增加新浪微波侧边栏、去除分享到twitter等国内不能使用的功能、增加分享到微博等网站的功能、添加评论系统等。现在做一总结，分享给大家。</p>
 
-<!--more-->
+<time datetime="2013-10-06T22:40:00+08:00" pubdate data-updated="true">Oct 6<span>th</span>, 2013</time>
+      
 
-<h2 id="section">安装</h2>
-
-<p>Octopress的安装还是很方便的,按照其官方文档<a href="http://octopress.org/docs/setup">http://octopress.org/docs/setup</a>就能安装成功,在此只是翻译和简单罗列一下。</p>
-
-<h3 id="ruby">安装Ruby</h3>
-
-<p>大家现在应该已经有了git系统，关于git本文不多做介绍，默认大家已经会用git系统了。</p>
-
-<p>首先安装Octopress依赖的的Ruby, Octopress 2.0依赖的是Ruby 1.9.3版本，可以在终端中输入<code>ruby --version</code>查看版本信息。Ubuntu系统中可以使用apt-get 安装，但是注意默认安装的Ruby版本可能不对，因此安装时需指明版本：</p>
-
-<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-</pre></td><td class="code"><pre><code class=""><span class="line">sudo apt-get install ruby1.9.3</span></code></pre></td></tr></table></div></figure></notextile></div>
-
-<p>现在终端中输入<code>ruby --version</code>查看版本信息应该是正确了。如果之前安装过Ruby但是版本不符合的，则需要使用rbenv或RVM来进行安装，具体可查看<a href="http://octopress.org/docs/setup/rbenv/">http://octopress.org/docs/setup/rbenv/</a> 或 <a href="http://octopress.org/docs/setup/rvm/">http://octopress.org/docs/setup/rvm/</a>.</p>
-
-<h3 id="octopress">安装Octopress</h3>
-
-<p>首先将Octopress工具clone到本地一文件夹：</p>
-
-<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-<span class="line-number">2</span>
-</pre></td><td class="code"><pre><code class=""><span class="line">git clone git://github.com/imathis/octopress.git octopress
-</span><span class="line">cd octopress</span></code></pre></td></tr></table></div></figure></notextile></div>
-
-<p>然后安装其它依赖</p>
-
-<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-<span class="line-number">2</span>
-<span class="line-number">3</span>
-</pre></td><td class="code"><pre><code class=""><span class="line">gem install bundler
-</span><span class="line">rbenv rehash    # If you use rbenv, rehash to be able to run the bundle command
-</span><span class="line">bundle install</span></code></pre></td></tr></table></div></figure></notextile></div>
-
-<p>最后安装默认Octopress主题</p>
-
-<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-</pre></td><td class="code"><pre><code class=""><span class="line">rake install</span></code></pre></td></tr></table></div></figure></notextile></div>
-
-<p>至此Octopress安装完成。</p>
-
-<h2 id="github-pages">配置github pages</h2>
-
-<p>github pages 可以提供一个域名为<code>http://username.github.com</code>的博客，首先需要在github新建一个名为<code>username.github.com</code>的代码仓库，然后就可以使用Octopress博客部署到该域名上了。(该username必须与你在github上的用户名一致)</p>
-
-<p>在代码仓库建立完成后，可以使用Octopress提供的脚本完成后面的部署工作：</p>
-
-<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-</pre></td><td class="code"><pre><code class=""><span class="line">rake setup_github_pages</span></code></pre></td></tr></table></div></figure></notextile></div>
-
-<p>在此过程会询问你的代码仓库的地址，按提示完成即可。此过程可能需要提供SSH key,如果没有可以参照<a href="https://help.github.com/articles/generating-ssh-keys">https://help.github.com/articles/generating-ssh-keys</a>设置。</p>
-
-<p>然后就可以将默认的博客发布到你自己的域名了：</p>
-
-<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-<span class="line-number">2</span>
-</pre></td><td class="code"><pre><code class=""><span class="line">rake generate
-</span><span class="line">rake deploy</span></code></pre></td></tr></table></div></figure></notextile></div>
-
-<p>几分钟后，你的域名上应该已经有了默认的博客了，至此安装和配置github pages就完成了。你还可以将Octopress目录加入到github中进行管理：</p>
-
-<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-<span class="line-number">2</span>
-<span class="line-number">3</span>
-</pre></td><td class="code"><pre><code class=""><span class="line">git add .
-</span><span class="line">git commit -m 'your message'
-</span><span class="line">git push origin source</span></code></pre></td></tr></table></div></figure></notextile></div>
-
-<h2 id="octopress-1">配置Octopress</h2>
-
-<p>Octopress的配置主要在<code>_config.yml</code>文件中，可以配置博客的主副标题，作者名，邮箱等，配置十分方便。在此建议将国内不能使用的功能，如twitter,google+等相关项设为false或直接删除，随后将介绍如何使用新浪微博等代替。</p>
-
-<h2 id="section-1">开始写文章</h2>
-
-<p>使用Octopress书写和发布文章只需几条命令即可。首先运行</p>
-
-<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-</pre></td><td class="code"><pre><code class=""><span class="line">rake new_post["title"]</span></code></pre></td></tr></table></div></figure></notextile></div>
-
-<p>该命令将会在<code>source/_posts</code>目录下生成一个名为<code>YYYY-MM-DD-post-title.markdown</code>的文件，编辑该文件即可书写你的文章了。文章书写使用markdown语法，<a href="http://wowubuntu.com/markdown/index.html">http://wowubuntu.com/markdown/index.html</a>给出了markdown语法的介绍，该语法简单方便。</p>
-
-<p>在文章书写完成后，就可以生成静态网页了：</p>
-
-<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-</pre></td><td class="code"><pre><code class=""><span class="line">rake generate</span></code></pre></td></tr></table></div></figure></notextile></div>
-
-<p>如果想要在发布到github上之前在本机进行预览，执行下面的命令，然后访问<a href="http://localhost:4000">http://localhost:4000</a> 就可以看到完成的状态了。</p>
-
-<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-</pre></td><td class="code"><pre><code class=""><span class="line">rake preview</span></code></pre></td></tr></table></div></figure></notextile></div>
-
-<p>最后可以发布到github上了，</p>
-
-<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-</pre></td><td class="code"><pre><code class=""><span class="line">rake deploy</span></code></pre></td></tr></table></div></figure></notextile></div>
-
-<p>至此，你已经可以在自己的博客上写文章了。<a href="http://octopress.org/docs/blogging/plugins/">http://octopress.org/docs/blogging/plugins/</a>这里给出了常用的书写文章时可以添加代码、图片、视频等内容的语法，用此可以生成图文并茂的文章。</p>
-
-<h2 id="section-2">高级配置</h2>
-<p>在此部分主要介绍在侧边增加新浪微博秀，在文章底部增加分享到和评论的功能。</p>
-
-<h3 id="section-3">新浪微博秀</h3>
-
-<ul>
-  <li>在<code>_config.yml</code>文件中将<code>default_asides</code>处代码改为如下，即去除不要的侧边栏，并加入微博侧边栏。</li>
-</ul>
-
-<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-</pre></td><td class="code"><pre><code class=""><span class="line">default_asides: [asides/recent_posts.html, asides/github.html, custom/asides/weibo.html]</span></code></pre></td></tr></table></div></figure></notextile></div>
-
-<ul>
-  <li>到<a href="http://app.weibo.com/tool/weiboshow">http://app.weibo.com/tool/weiboshow</a>获取自己微博秀的代码。</li>
-  <li>在<code>source/_includes/custom/asides</code>文件夹下新建weibo.html文件并编辑如下,将获取的微博秀代码插入到相应位置：</li>
-</ul>
-
-<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-<span class="line-number">2</span>
-<span class="line-number">3</span>
-<span class="line-number">4</span>
-<span class="line-number">5</span>
-<span class="line-number">6</span>
-<span class="line-number">7</span>
-<span class="line-number">8</span>
-<span class="line-number">9</span>
-<span class="line-number">10</span>
-</pre></td><td class="code"><pre><code class=""><span class="line">&lt;section&gt;
-</span><span class="line">    &lt;h1&gt;新浪微博&lt;/h1&gt;
-</span><span class="line">    &lt;ul id="weibo"&gt;
-</span><span class="line">    &lt;li&gt;
-</span><span class="line">
-</span><span class="line">    &lt;!-- 在此插入获得的微博秀代码 --&gt;
-</span><span class="line">
-</span><span class="line">      &lt;/li&gt;
-</span><span class="line">    &lt;/ul&gt;
-</span><span class="line">&lt;/section&gt;</span></code></pre></td></tr></table></div></figure></notextile></div>
-
-<p>至此你的侧边就有了你自己的微博秀了。</p>
-
-<h3 id="section-4">分享到和评论功能</h3>
-
-<ul>
-  <li>在<code>_config.yml</code>文件中增加一项，可用此来控制是否开启分享到和评论功能，设为<code>false</code>则可关闭：</li>
-</ul>
-
-<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-<span class="line-number">2</span>
-</pre></td><td class="code"><pre><code class=""><span class="line"># Sina Weibo
-</span><span class="line">weibo_sharing: true</span></code></pre></td></tr></table></div></figure></notextile></div>
-
-<ul>
-  <li>编辑<code>/source/_includes/post/sharing.html</code>,增加如下代码：</li>
-</ul>
-
-<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-<span class="line-number">2</span>
-<span class="line-number">3</span>
-<span class="line-number">4</span>
-</pre></td><td class="code"><pre><code class=""><span class="line">//下面的大括号与百分号间无空格，如果复制，请去掉  
-</span><span class="line">{ % if site.weibo_sharing % }
-</span><span class="line">{ % include custom/weibo_sharing.html % }
-</span><span class="line">{ % endif % }</span></code></pre></td></tr></table></div></figure></notextile></div>
-
-<ul>
-  <li>在<code>source/_includes/custom</code>下新建<code>weibo_sharing.html</code>文件。</li>
-  <li>到<a href="http://www.bshare.cn/">http://www.bshare.cn/</a>获取喜欢按钮样式的分享代码，加入到<code>weibo_sharing.html</code>中，即可增加分享到按钮功能。</li>
-  <li>到<a href="http://www.uyan.cc/">http://www.uyan.cc/</a>获取评论功能的代码，加入到<code>weibo_sharing.html</code>中，即可增加评论功能。</li>
-</ul>
-
-<h2 id="section-5">参考</h2>
-<ul>
-  <li><a href="http://octopress.org/docs/">http://octopress.org/docs/</a></li>
-  <li><a href="https://help.github.com/categories/20/articles">https://help.github.com/categories/20/articles</a></li>
-  <li><a href="http://blog.devtang.com/blog/2012/02/10/setup-blog-based-on-github/">http://blog.devtang.com/blog/2012/02/10/setup-blog-based-on-github/</a></li>
-</ul>
-
-]]></content>
-  </entry>
+<span class="categories">
   
-</feed>
+    <a class='category' href='/blog/categories/markdown/'>Markdown</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+    
+  
+    
+<!--
+    <script type="text/javascript" charset="utf-8">
+    (function(){
+      var _w = 106 , _h = 58;
+      var param = {
+        url:location.href,
+        type:'5',
+        count:'1', /**是否显示分享数，1显示(可选)*/
+        appkey:'', /**您申请的应用appkey,显示分享来源(可选)*/
+        title:'', /**分享的文字内容(可选，默认为所在页面的title)*/
+        pic:'', /**分享图片的路径(可选)*/
+        ralateUid:'', /**关联用户的UID，分享微博会@该用户(可选)*/
+    	language:'zh_cn', /**设置语言，zh_cn|zh_tw(可选)*/
+        rnd:new Date().valueOf()
+      }
+      var temp = [];
+      for( var p in param ){
+        temp.push(p + '=' + encodeURIComponent( param[p] || '' ) )
+      }
+      document.write('<iframe allowTransparency="true" frameborder="0" scrolling="no" src="http://hits.sinajs.cn/A1/weiboshare.html?' + temp.join('&') + '" width="'+ _w+'" height="'+_h+'"></iframe>')
+    })()
+    </script>
+
+<a href="javascript:void(function(){var d=document,e=encodeURIComponent,s1=window.getSelection,s2=d.getSelection,s3=d.selection,s=s1?s1():s2?s2():s3?s3.createRange().text:'',r='http://www.douban.com/recommend/?url='+e(d.location.href)+'&title='+e(d.title)+'&sel='+e(s)+'&v=1',x=function(){if(!window.open(r,'douban','toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330'))location.href=r+'&r=1'};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})()"><img src="http://img2.douban.com/pics/fw2douban2.png" alt="推荐到豆瓣" /></a>
+
+-->
+
+原创文章，版权声明：自由转载-非商用-非衍生-保持署名 | <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh" id="">Creative Commons BY-NC-ND 3.0</a>
+<br/>
+<br/>
+
+
+
+<div class="bshare-custom icon-medium">
+  <a title="分享到" href="http://www.bShare.cn/" id="bshare-shareto" class="bshare-more">分享到</a>
+  <a title="分享到新浪微博" class="bshare-sinaminiblog"></a>
+  <a title="分享到腾讯微博" class="bshare-qqmb"></a>
+  <a title="分享到豆瓣" class="bshare-douban"></a>
+  <a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a>
+  <span class="BSHARE_COUNT bshare-share-count">0</span></div><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh"></script><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>
+
+
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" id="UYScript" src="http://v1.uyan.cc/js/iframe.js?UYUserId=0" async=""></script>
+<!-- UY END -->
+
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left articlenav" href="/blog/2013/10/06/markdown-get-start/" title="Previous Post: Markdown快速入门">&laquo; Markdown快速入门</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <ul id="weibo">
+    <li>
+    <iframe frameborder="0" scrolling="no" src="http://show.v.t.qq.com/index.php?c=show&a=index&n=ngot_ftd&w=0&h=552&fl=1&l=30&o=31&co=4&cs=4A4A4A_4A4A4A_212121_4A4A4A" width="100%" height="552"></iframe>
+    </li>
+    <li>
+      <!-- JiaThis Button BEGIN -->
+      <div id="jiathis_style_32x32">
+      	<span class="jiathis_txt">关注我：</span>
+      	<a class="jiathis_follow_tsina" rel="http://weibo.com/u/1751144103"></a>
+      	<a class="jiathis_follow_tqq" rel="http://t.qq.com/ngot_ftd"></a>
+      </div>
+      <script type="text/javascript" src="http://v2.jiathis.com/code/jia.js?uid=1377746685923397" charset="utf-8"></script>
+      <!-- JiaThis Button END -->
+    </li>
+  </ul>
+  
+</section>
+<section>
+  <h1>最近文章</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/10/06/markdown-syntax/">Markdown语法说明</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/10/06/markdown-get-start/">Markdown快速入门</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/10/05/blog/">利用Octopress在github pages上搭建个人博客</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub 仓库</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/ngot">@ngot</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'ngot',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  版权 &copy; 2013 - ngot -
+  <span class="credit">由 <a href="http://octopress.org">Octopress</a>强力驱动</span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1000090427'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1000090427%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+
+<!-- JiaThis Button BEGIN -->
+<div class="jiathis_streak_share_24x24" id="jiathis_streak_share" style="display:none">
+<span class="streak_share_jiao"></span>
+<div class="jiathis_streak_goshare" id="jiathis_streak_goshare"><span class="jiathis_streak_txt">分享到</span>  <span style="" title="隐藏分享框" onclick="JIATHIS_STREAK.hideShare()" class="jiathis_streak_close">X</span></div>
+<div class="jiathis_style_24x24" >
+<a class="jiathis_button_qzone"></a>
+<a class="jiathis_button_tsina"></a>
+<a class="jiathis_button_tqq"></a>
+<a class="jiathis_button_weixin"></a>
+<a class="jiathis_button_renren"></a>
+<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1377746685923397" charset="utf-8"></script>	
+<script type="text/javascript" src="http://v3.jiathis.com/code/jiathis_streak.js" charset="utf-8"></script>
+</div></div>
+<!-- JiaThis Button END -->
+
+
+
+
+
+
+</body>
+</html>

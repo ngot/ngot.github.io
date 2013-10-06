@@ -1,27 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://ngot.github.com/blog/2013/01/05/blog/</loc>
-        <lastmod>2013-10-06T19:48:45+08:00</lastmod>
+        <loc>http://ngot.github.com/blog/2013/10/05/blog/</loc>
+        <lastmod>2013-10-06T22:36:34+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://ngot.github.com/blog/2013/10/06/markdown-get-start/</loc>
+        <lastmod>2013-10-06T22:46:37+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://ngot.github.com/blog/2013/10/06/markdown-syntax/</loc>
+        <lastmod>2013-10-06T22:48:23+08:00</lastmod>
     </url>
     <url>
         <loc>http://ngot.github.com/about/</loc>
-        <lastmod>2013-10-06T19:48:45+08:00</lastmod>
+        <lastmod>2013-10-06T22:33:38+08:00</lastmod>
     </url>
     <url>
         <loc>http://ngot.github.com/blog/archives/</loc>
-        <lastmod>2013-10-06T19:48:45+08:00</lastmod>
+        <lastmod>2013-10-06T22:48:23+08:00</lastmod>
     </url>
     <url>
         <loc>http://ngot.github.com/</loc>
-        <lastmod>2013-10-06T19:48:45+08:00</lastmod>
+        <lastmod>2013-10-06T22:48:23+08:00</lastmod>
     </url>
     <url>
         <loc>http://ngot.github.com/robots.txt</loc>
-        <lastmod>2013-10-06T19:48:45+08:00</lastmod>
+        <lastmod>2013-10-06T22:33:39+08:00</lastmod>
     </url>
     <url>
         <loc>http://ngot.github.com/tv/tv.html</loc>
-        <lastmod>2013-10-06T20:00:05+08:00</lastmod>
+        <lastmod>2013-10-06T22:33:39+08:00</lastmod>
     </url>
 </urlset>

@@ -4,7 +4,7 @@
   <title><![CDATA[Ngot's blog]]></title>
   <link href="http://ngot.github.com/atom.xml" rel="self"/>
   <link href="http://ngot.github.com/"/>
-  <updated>2013-10-08T23:58:19+08:00</updated>
+  <updated>2013-11-12T16:59:27+08:00</updated>
   <id>http://ngot.github.com/</id>
   <author>
     <name><![CDATA[ngot]]></name>
@@ -12,6 +12,131 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[我的简历]]></title>
+    <link href="http://ngot.github.com/blog/2013/11/01/curriculum-vitae/"/>
+    <updated>2013-11-01T22:40:00+08:00</updated>
+    <id>http://ngot.github.com/blog/2013/11/01/curriculum-vitae</id>
+    <content type="html"><![CDATA[<h2 id="section">关于我</h2>
+
+<ul>
+  <li><em>姓名</em>：庄恒飞</li>
+  <li><em>性别</em>：男</li>
+  <li><em>出生年月</em>：1991.11</li>
+  <li><em>学历</em>：本科</li>
+  <li><em>籍贯</em>：江苏淮安</li>
+  <li><em>Email</em>：zhuanghengfei@gmail.com</li>
+  <li><em>联系方式</em>：15651852803</li>
+  <li><em>英语水平</em>：CET-6</li>
+</ul>
+
+<h2 id="section-1">我这几年</h2>
+
+<ul>
+  <li>2009.9－2013.06		南京工业大学	计算机科学与技术</li>
+  <li>2012.10－2013.08		南京远望蓝卫系统集成有限公司	</li>
+  <li>2013.08－至今		南京泛盈科技</li>
+</ul>
+
+<h2 id="section-2">做过什么项目</h2>
+
+<h4 id="web">某大学web考勤系统</h4>
+<ul>
+  <li><em>采用技术</em>：Node.js,Express,Angularjs,Grunt,Mysql,Redis。</li>
+  <li><em>开发工具</em>：TextMate</li>
+  <li><em>开发平台</em>：Mac OSX</li>
+  <li><em>具体介绍</em>：这个系统主要管理指纹机收集的上课考勤数据。这是一个典型的CRUD系统。业务逻辑主要集中在各种考勤数据的查询。前端选用了Angular，后端采用Express框架编写REST风格的API。运用Redis存储session，采用passport处理授权。后端分MC两层，V层独立出来采用Angular编写。</li>
+</ul>
+
+<h4 id="section-3">跨平台交通导航系统</h4>
+
+<ul>
+  <li><em>采用技术</em>：Phonegap，HTML5，Javascript，CSS，Java，Android SDK，Node.js,Express,MongoDB，Baidu Map JavsScript API，JqueryMobile</li>
+  <li><em>开发工具</em>：Intellij IDEA，VIM，Dreamweaver</li>
+  <li><em>开发平台</em>：Ubuntu</li>
+  <li><em>具体介绍</em>：这个项目是我的毕业设计项目。为了达到跨平台的目的，我选用了Phonegap作为移动端的本地实现。程序主体采用HTML5+JavaScript编写。程序主体部署在后端的Web服务器上，移动端加载资源，执行程序。后端web服务器由Node.js的Express框架搭建。数据库服务选用MongoDB。程序主要功能有：驾车路线搜索，公交换乘检索，周边关键字检索和自我定位等功能。通过Phonegap为特定平台开发对应的客户端，可以实现程序的跨平台。不过因为当时做毕业设计时还不懂得前后端分离的概念，所以选用了EJS来渲染页面，phonegap加载的方式来运行。这个是很大的需要改进的地方。</li>
+</ul>
+
+<h4 id="juststep-x5">基于JustStep X5平台的办公系统</h4>
+
+<p>X5平台中不采用细粒度的Java代码来开发业务系统，取而代之以粗粒度业务语义来快速、高效、准确地进行说明性的描述，描述的内容则是业务、数据、流程这些模型中的资源。X5的模型资源主要包括数据模型、过程模型、界面模型和组织模型。X5平台可以直接运行创建的模型，可随时更改模型。数据模型分为本体，概念和关系三层结构。本体就是一组关系相近的概念的集合，概念相当于数据表，关系相当于数据表的字段。X5不直接操作数据，业务动作直接操作这些数据模型。过程模型对应实际工作中的一系列步骤，在X5以流程图的形式建模，每一个步骤称为一个环节。系统具有严密的权限控制体系，过程模型对应的每个环节只有授权用户才可以访问。X5平台基于J2EE基础环境，通过对Web技术、SOA、Ajax、XML、XForm等一系列基础技术的整合以实现业务的描述、建模、运行、维护体系。我参与开发的子系统：</p>
+
+<ul>
+  <li><em>文件呈报系统</em></li>
+</ul>
+
+<p>文件呈报系统是个典型的工作流系统，工作主要包括文件拟制，领导审批，文件打印等。开发之初，首先分析业务流程所需要的数据资源，如审批过程中文件，执行者，处理时间，环节等等，根据分析结果创建数据模型。然后根据审批流程创建过程模型。模型资源创建完毕以后，根据流程模型创建界面，并编写相应的业务逻辑，完成初步开发工作。</p>
+
+<ul>
+  <li><em>质量管理系统</em></li>
+</ul>
+
+<p>质量管理系统服务于每年一次的质量检测工作。主要处理两个业务，一：从人员组织机构中选取人员组成质检小组；二：抽取研究所本年度所有项目，供质检组检查。涉及到的数据模型有质检组数据，检查报告数据等等。此系统还包括报表功能。</p>
+
+<ul>
+  <li><em>评价管理系统</em></li>
+</ul>
+
+<p>评价系统类似于质量管理系统，服务于每年一次的对研究所人员的评价工作。首先从组织机构选取人员组成考评组，然后对研究室的人员进行打分。业务数据主要有考评组，打分信息等等。</p>
+
+<ul>
+  <li><em>工作计划管理系统</em></li>
+</ul>
+
+<p>工作计划管理系统属于日常办公的一部分。主要包括两方面业务内容，一：导入系统其他模块为人员分配的任务，并列为该人员工作计划的一部分；二：手动录入需要处理的工作计划，并设置提醒时间，到设定时间给予提醒。</p>
+
+<p>上述系统由三人小组共同开发完成。我担任组长，负责处理原始的需求分析，系统设计，带领团队处理数据建模和过程建模，并由我编写公共代码模块，撰写系统设计文档和用户使用手册等文档。全程负责把控项目质量与进度。通过这个办公系统的开发，我提高实际的编程能力以及团队合作能力。同时也学会了软件开发流程的规范，提高了对项目进度与质量把控的技巧。初步学会了如何带领团队开展工作以及如何调动成员的积极性来提升项目进度。文档撰写的经历，也提高了我文档撰写的能力。</p>
+
+<h4 id="section-4">订饭兼群聊系统</h4>
+
+<ul>
+  <li><em>采用技术</em>：C/S架构，采用Socket，Swing，多线程，JDBC，XML，TCP和UDP协议等技术。</li>
+  <li><em>开发工具</em>：Intellij IDEA，MySql</li>
+  <li><em>开发平台</em>：Ubuntu</li>
+  <li><em>具体介绍</em>：开始设计时，系统计划在宿舍局域网内使用，并且因为服务器IP地址不固定。为了实现服务器地址变更，客户端依然能够连接上服务器的功能，我在登陆模块加了个广播线程，用于寻找服务器。在系统登陆成功后，服务器会把菜单信息反馈给客户端，客户端根据接收到的菜单信息动态生成订餐界面。服务器同时更新在线用户列表。每当服务器接收到新的连接请求，就会创建一个新的线程单独处理与此客户的所有业务。客户端与服务器通信采用XML交换协议，每种业务消息约定一个消息类型。通过判断消息类型，识别通讯请求。主要功能：订餐，客户帐单查询，订单汇总，群聊天等。这个是学习JAVA那时的练手小项目，线程模型很简单，来一个客户端创建一个线程。这样很容易爆服务器，采用线程池，NIO或AIO会比较好。当然这个在Node.js上不算问题。</li>
+</ul>
+
+<h4 id="section-5">电销助手</h4>
+
+<ul>
+  <li><em>采用技术</em>：Java，Android SDK，jxl.jar</li>
+  <li><em>开发工具</em>：Android Studio</li>
+  <li><em>开发平台</em>：Mac OS X </li>
+  <li><em>具体介绍</em>：这个小工具是应一个做电话营销的朋友之邀而开发的。主要功能是读取存储在Excel文档中的客户信息，显示在屏幕上，可长按拨号，省去海量号码手工拨号的繁重劳动。读取解析Excel采用了jxl.jar来实现，其读取Excel的方式类似于JDBC。程序主体界面是一个ScrollView，当纪录条数超出一个屏幕，可以滑动浏览。ScrollView里面放置一个垂直布局的LineLayout组件。然后读取Excel里的客户信息，动态往LineLayout里面添加TextView控件。每个TextView控件都绑定上长按拨号事件。功能非常简单，界面也很丑陋。处于能用，基本毫无体验的玩意。码农实在不会做界面。</li>
+</ul>
+
+<h2 id="section-6">技术方面</h2>
+
+<ul>
+  <li><em>语言方面</em></li>
+</ul>
+
+<p>我的启蒙语言算是VB，那还是高一的时候，不过现在已经忘的一干二净。真真带我进入编程之门的是C语言。之后学习了C#，也就自然而然地接触到了.NET平台的一系列技术。出于个人对微软windows的厌恶，.NET只吸引了我很短暂的一段时间，之后我就跑进了Java的世界，至今没碰过.NET。严格的说也不算完全没碰过，前阶段尝试Unity3D的时候用过Mono写过C#代码。写了很长一段时间的Java后，我渐渐厌恶了Java繁琐的编写方式，一板一眼，非常八股。这个时候Ruby走进了我的世界，它的主页上宣称这是多么多么优美的语言，我当时兴奋地学习它的语法，通宵逛Ruby社区。不过，当我还在Ruby尝鲜阶段时，论坛回复中的一个词吸引了我的注意力，它就是<em>Node.js</em>。我当时的第一反应是：这又是一个前端什么框架或插件的之类东西吧。Google的结果令我异常兴奋。原来我天天的使用的JS语言有这么强大的能力。自此，我就陷入了JS的泥潭，无法自拔。不过在JS之外，我也了解其他语言，比如ruby是无意中带我进Node世界的一门语言；其他还有Python，Golang，Objective-c也有所了解。
+- <em>版本控制</em></p>
+
+<p>CVS对我来说很古老了，没用过。写Java那阶段，一直在用SVN。转到Node阵营后，转入了Git。
+- <em>数据库</em></p>
+
+<p>RDB如Oracle，mysql都使用过。NOSQL方面，使用过MongoDB和Redis，耳闻的有CouchDB，LevelDB。
+- <em>开发环境</em></p>
+
+<p>和大多数人一样开始时使用windows，后来转到linux，攒够钱后转到了Mac上。</p>
+
+<h2 id="section-7">我怎么看自己</h2>
+
+<p>技术上喜欢追求时髦和高效；产品上喜欢灌输自己的理念。
+  点理想化，爱幻想。有时会钻牛角尖，这个得改改。
+  总体来说，我是个积极向上的好青年。</p>
+
+<h2 id="section-8">我的主页</h2>
+
+<ul>
+  <li><a href="http://ngot.me">Ngot’Blog</a> 不久前刚建立的主页，还没来得及充实它。</li>
+  <li><a href="https://github.com/ngot">Github</a></li>
+</ul>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Markdown语法说明]]></title>

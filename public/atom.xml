@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Ngot's blog]]></title>
-  <link href="http://ngot.github.com/atom.xml" rel="self"/>
-  <link href="http://ngot.github.com/"/>
-  <updated>2013-11-12T17:15:35+08:00</updated>
-  <id>http://ngot.github.com/</id>
+  <link href="http://ngot.me/atom.xml" rel="self"/>
+  <link href="http://ngot.me/"/>
+  <updated>2013-11-12T21:09:33+08:00</updated>
+  <id>http://ngot.me/</id>
   <author>
     <name><![CDATA[ngot]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[我的简历]]></title>
-    <link href="http://ngot.github.com/blog/2013/11/11/curriculum-vitae/"/>
+    <link href="http://ngot.me/blog/2013/11/11/curriculum-vitae/"/>
     <updated>2013-11-11T22:40:00+08:00</updated>
-    <id>http://ngot.github.com/blog/2013/11/11/curriculum-vitae</id>
+    <id>http://ngot.me/blog/2013/11/11/curriculum-vitae</id>
     <content type="html"><![CDATA[<h2 id="section">关于我</h2>
 
 <ul>
@@ -134,14 +134,14 @@
   
   <entry>
     <title type="html"><![CDATA[Markdown语法说明]]></title>
-    <link href="http://ngot.github.com/blog/2013/10/06/markdown-syntax/"/>
+    <link href="http://ngot.me/blog/2013/10/06/markdown-syntax/"/>
     <updated>2013-10-06T22:40:00+08:00</updated>
-    <id>http://ngot.github.com/blog/2013/10/06/markdown-syntax</id>
+    <id>http://ngot.me/blog/2013/10/06/markdown-syntax</id>
     <content type="html"><![CDATA[<p><strong>声明：</strong> 这份文档派生(fork)于<a href="http://markdown.tw/">繁体中文版</a>，在此基础上进行了繁体转简体工作，并进行了适当的润色。此文档用 Markdown 语法编写，你可以到这里<a href="http://gitcafe.com/riku/Markdown-Syntax-CN/blob/master/syntax.md">查看它的源文件</a>。「繁体中文版的原始文件可以<a href="https://github.com/othree/markdown-syntax-zhtw/blob/master/syntax.md">查看这里</a> 。」–By @<a href="http://twitter.com/riku">riku</a></p>
 
 <p><strong>注：</strong> 本项目托管于 <a href="http://gitcafe.com/riku/Markdown-Syntax-CN/">GitCafe</a>上，请通过”派生”和”合并请求”来帮忙改进本项目。</p>
 
-<h1 id="markdown----blog20131006markdown-get-start">Markdown 语法说明 (简体中文版) / (<a href="http://ngot.github.com/blog/2013/10/06/markdown-get-start/">点击查看快速入门</a>)</h1>
+<h1 id="markdown----blog20131006markdown-get-start">Markdown 语法说明 (简体中文版) / (<a href="http://ngot.me/blog/2013/10/06/markdown-get-start/">点击查看快速入门</a>)</h1>
 
 <ul>
   <li><a href="#overview">概述</a>
@@ -970,14 +970,14 @@ _   底线
   
   <entry>
     <title type="html"><![CDATA[Markdown快速入门]]></title>
-    <link href="http://ngot.github.com/blog/2013/10/06/markdown-get-start/"/>
+    <link href="http://ngot.me/blog/2013/10/06/markdown-get-start/"/>
     <updated>2013-10-06T22:38:00+08:00</updated>
-    <id>http://ngot.github.com/blog/2013/10/06/markdown-get-start</id>
+    <id>http://ngot.me/blog/2013/10/06/markdown-get-start</id>
     <content type="html"><![CDATA[<p><strong>声明：</strong> 这份文档派生(fork)于<a href="http://markdown.tw/">繁体中文版</a>，在此基础上进行了繁体转简体工作，并进行了适当的润色。此文档用 Markdown 语法编写，你可以到这里<a href="http://gitcafe.com/riku/Markdown-Syntax-CN/blob/master/basics.md">查看它的源文件</a>。「繁体中文版的原始文件可以<a href="https://github.com/othree/markdown-syntax-zhtw/blob/master/basics.md">查看这里</a>」–By @<a href="http://twitter.com/riku">riku</a></p>
 
 <p><strong>注：</strong> 本项目托管于 <a href="http://gitcafe.com/riku/Markdown-Syntax-CN/">GitCafe</a>上，请通过”派生”和”合并请求”来帮忙改进本项目。</p>
 
-<h1 id="markdown-basics---blog20131006markdown-syntax">Markdown: Basics （快速入门） / (<a href="http://ngot.github.com/blog/2013/10/06/markdown-syntax/">点击查看完整语法说明</a>)</h1>
+<h1 id="markdown-basics---blog20131006markdown-syntax">Markdown: Basics （快速入门） / (<a href="http://ngot.me/blog/2013/10/06/markdown-syntax/">点击查看完整语法说明</a>)</h1>
 
 <h2 id="getting-the-gist-of-markdowns-formatting-syntax">Getting the Gist of Markdown’s Formatting Syntax</h2>
 
@@ -1191,7 +1191,7 @@ title="MSN Search"&gt;MSN&lt;/a&gt;.&lt;/p&gt;
 
 <p>上面两种方法都会输出 HTML 为：</p>
 
-<pre><code>&lt;img src="http://ngot.github.com/path/to/img.jpg" alt="alt text" title="Title" /&gt;
+<pre><code>&lt;img src="http://ngot.me/path/to/img.jpg" alt="alt text" title="Title" /&gt;
 </code></pre>
 
 <h3 id="section-4">代码</h3>
@@ -1239,9 +1239,9 @@ you've got to put paragraph tags in your blockquotes:&lt;/p&gt;
   
   <entry>
     <title type="html"><![CDATA[利用Octopress在github pages上搭建个人博客]]></title>
-    <link href="http://ngot.github.com/blog/2013/10/05/blog/"/>
+    <link href="http://ngot.me/blog/2013/10/05/blog/"/>
     <updated>2013-10-05T22:19:00+08:00</updated>
-    <id>http://ngot.github.com/blog/2013/10/05/blog</id>
+    <id>http://ngot.me/blog/2013/10/05/blog</id>
     <content type="html"><![CDATA[<p>github不仅能够提供代码托管和版本控制系统，现在又有了github pages功能，可以让你将个人的博客搭建在此，通过git 工具方便的发布个人博客。由于pages只提供了管理和呈现静态网页的功能，而静态网页的生成则需自己实现。Jekyll工具可用来实现静态网页的生成，但是使用起来相对麻烦，需要对Html,CSS和javascript比较熟悉。作为希望更加关注内容的博客用户来说，Octopress给出了一个更好的选择，Octopress是一个基于Jekyll的博客生成框架，它处理了Jekyll那些麻烦的配置，安装后只需几条简单的命令就可以发布你的博客了。</p>
 
 <p>本文就是基于该系统发布的第一篇，本文记录了在ubuntu 12.04系统下搭建该博客系统的过程，同时也加入了一些自己的配置，比如增加新浪微波侧边栏、去除分享到twitter等国内不能使用的功能、增加分享到微博等网站的功能、添加评论系统等。现在做一总结，分享给大家。</p>

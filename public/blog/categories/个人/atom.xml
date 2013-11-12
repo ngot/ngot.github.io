@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: 个人 | Ngot's blog]]></title>
-  <link href="http://ngot.github.com/blog/categories/个人/atom.xml" rel="self"/>
-  <link href="http://ngot.github.com/"/>
-  <updated>2013-11-12T17:15:35+08:00</updated>
-  <id>http://ngot.github.com/</id>
+  <link href="http://ngot.me/blog/categories/个人/atom.xml" rel="self"/>
+  <link href="http://ngot.me/"/>
+  <updated>2013-11-12T21:09:33+08:00</updated>
+  <id>http://ngot.me/</id>
   <author>
     <name><![CDATA[ngot]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[我的简历]]></title>
-    <link href="http://ngot.github.com/blog/2013/11/11/curriculum-vitae/"/>
+    <link href="http://ngot.me/blog/2013/11/11/curriculum-vitae/"/>
     <updated>2013-11-11T22:40:00+08:00</updated>
-    <id>http://ngot.github.com/blog/2013/11/11/curriculum-vitae</id>
+    <id>http://ngot.me/blog/2013/11/11/curriculum-vitae</id>
     <content type="html"><![CDATA[<h2 id="section">关于我</h2>
 
 <ul>

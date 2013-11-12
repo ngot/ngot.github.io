@@ -4,7 +4,7 @@
   <title><![CDATA[Ngot's blog]]></title>
   <link href="http://ngot.github.com/atom.xml" rel="self"/>
   <link href="http://ngot.github.com/"/>
-  <updated>2013-11-12T16:59:27+08:00</updated>
+  <updated>2013-11-12T17:15:35+08:00</updated>
   <id>http://ngot.github.com/</id>
   <author>
     <name><![CDATA[ngot]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[我的简历]]></title>
-    <link href="http://ngot.github.com/blog/2013/11/01/curriculum-vitae/"/>
-    <updated>2013-11-01T22:40:00+08:00</updated>
-    <id>http://ngot.github.com/blog/2013/11/01/curriculum-vitae</id>
+    <link href="http://ngot.github.com/blog/2013/11/11/curriculum-vitae/"/>
+    <updated>2013-11-11T22:40:00+08:00</updated>
+    <id>http://ngot.github.com/blog/2013/11/11/curriculum-vitae</id>
     <content type="html"><![CDATA[<h2 id="section">关于我</h2>
 
 <ul>
@@ -109,19 +109,13 @@
 <h2 id="section-6">技术方面</h2>
 
 <ul>
-  <li><em>语言方面</em></li>
+  <li><em>语言方面</em> 我的启蒙语言算是VB，那还是高一的时候，不过现在已经忘的一干二净。真真带我进入编程之门的是C语言。之后学习了C#，也就自然而然地接触到了.NET平台的一系列技术。出于个人对微软windows的厌恶，.NET只吸引了我很短暂的一段时间，之后我就跑进了Java的世界，至今没碰过.NET。严格的说也不算完全没碰过，前阶段尝试Unity3D的时候用过Mono写过C#代码。写了很长一段时间的Java后，我渐渐厌恶了Java繁琐的编写方式，一板一眼，非常八股。这个时候Ruby走进了我的世界，它的主页上宣称这是多么多么优美的语言，我当时兴奋地学习它的语法，通宵逛Ruby社区。不过，当我还在Ruby尝鲜阶段时，论坛回复中的一个词吸引了我的注意力，它就是<em>Node.js</em>。我当时的第一反应是：这又是一个前端什么框架或插件的之类东西吧。Google的结果令我异常兴奋。原来我天天的使用的JS语言有这么强大的能力。自此，我就陷入了JS的泥潭，无法自拔。不过在JS之外，我也了解其他语言，比如ruby是无意中带我进Node世界的一门语言；其他还有Python，Golang，Objective-c也有所了解。</li>
+  <li>
+    <p><em>版本控制</em> CVS对我来说很古老了，没用过。写Java那阶段，一直在用SVN。转到Node阵营后，转入了Git。</p>
+  </li>
+  <li><em>数据库</em> RDB如Oracle，mysql都使用过。NOSQL方面，使用过MongoDB和Redis，耳闻的有CouchDB，LevelDB。</li>
+  <li><em>开发环境</em> 和大多数人一样开始时使用windows，后来转到linux，攒够钱后转到了Mac上。</li>
 </ul>
-
-<p>我的启蒙语言算是VB，那还是高一的时候，不过现在已经忘的一干二净。真真带我进入编程之门的是C语言。之后学习了C#，也就自然而然地接触到了.NET平台的一系列技术。出于个人对微软windows的厌恶，.NET只吸引了我很短暂的一段时间，之后我就跑进了Java的世界，至今没碰过.NET。严格的说也不算完全没碰过，前阶段尝试Unity3D的时候用过Mono写过C#代码。写了很长一段时间的Java后，我渐渐厌恶了Java繁琐的编写方式，一板一眼，非常八股。这个时候Ruby走进了我的世界，它的主页上宣称这是多么多么优美的语言，我当时兴奋地学习它的语法，通宵逛Ruby社区。不过，当我还在Ruby尝鲜阶段时，论坛回复中的一个词吸引了我的注意力，它就是<em>Node.js</em>。我当时的第一反应是：这又是一个前端什么框架或插件的之类东西吧。Google的结果令我异常兴奋。原来我天天的使用的JS语言有这么强大的能力。自此，我就陷入了JS的泥潭，无法自拔。不过在JS之外，我也了解其他语言，比如ruby是无意中带我进Node世界的一门语言；其他还有Python，Golang，Objective-c也有所了解。
-- <em>版本控制</em></p>
-
-<p>CVS对我来说很古老了，没用过。写Java那阶段，一直在用SVN。转到Node阵营后，转入了Git。
-- <em>数据库</em></p>
-
-<p>RDB如Oracle，mysql都使用过。NOSQL方面，使用过MongoDB和Redis，耳闻的有CouchDB，LevelDB。
-- <em>开发环境</em></p>
-
-<p>和大多数人一样开始时使用windows，后来转到linux，攒够钱后转到了Mac上。</p>
 
 <h2 id="section-7">我怎么看自己</h2>
 

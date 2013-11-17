@@ -1,1 +1,6 @@
 node_modules
+_deploy
+.sass-cache
+.pygments-cache
+.idea
+

@@ -10,7 +10,8 @@ module.exports = function (grunt) {
           pushBranch : 'master'
         },
         // The folder where your gh-pages repo is
-        src: 'public'
+        src: 'public',
+        dest: '_site'
       }
     }
   });

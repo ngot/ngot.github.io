@@ -3,4 +3,6 @@ _deploy
 .sass-cache
 .pygments-cache
 .idea
+public
+_site
 

@@ -11,11 +11,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/0da905271627e242e9241a71a5ea374e1c5c696b/_googleplus.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/0da905271627e242e9241a71a5ea374e1c5c696b/_pinboard.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/0da905271627e242e9241a71a5ea374e1c5c696b/_twitter.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/0ef7ea345b966322b05b26a2fd1862e4c0a7377d/_ellipsis.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/0ef7ea345b966322b05b26a2fd1862e4c0a7377d/_force-wrap.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/0ef7ea345b966322b05b26a2fd1862e4c0a7377d/_nowrap.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/0ef7ea345b966322b05b26a2fd1862e4c0a7377d/_replacement.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/11795c02366ac204d71be6c4aedf1d4ae07daf36/_contrast.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/14e7c969a3896096f9909c7c24c25bd7140a770a/_ellipsis.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/14e7c969a3896096f9909c7c24c25bd7140a770a/_force-wrap.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/14e7c969a3896096f9909c7c24c25bd7140a770a/_nowrap.scssc" afterPath="" />
@@ -23,18 +18,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/1ce28cb3c872e48012b2682a76fd27150e605503/_base.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/1ce28cb3c872e48012b2682a76fd27150e605503/_partials.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/1ce28cb3c872e48012b2682a76fd27150e605503/screen.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/30d3dba7452e7cca868f1b51c3500ef774fe9971/_archive.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/30d3dba7452e7cca868f1b51c3500ef774fe9971/_blog.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/30d3dba7452e7cca868f1b51c3500ef774fe9971/_footer.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/30d3dba7452e7cca868f1b51c3500ef774fe9971/_header.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/30d3dba7452e7cca868f1b51c3500ef774fe9971/_navigation.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/30d3dba7452e7cca868f1b51c3500ef774fe9971/_sharing.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/30d3dba7452e7cca868f1b51c3500ef774fe9971/_sidebar.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/30d3dba7452e7cca868f1b51c3500ef774fe9971/_syntax.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/3a016258d5a96260b91e39d236a3b17f2518ff54/_colors.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/3a016258d5a96260b91e39d236a3b17f2518ff54/_fonts.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/3a016258d5a96260b91e39d236a3b17f2518ff54/_layout.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/3a016258d5a96260b91e39d236a3b17f2518ff54/_styles.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/406b46076ca1acde86a47c92aca32cfffcd3baf3/_base.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/406b46076ca1acde86a47c92aca32cfffcd3baf3/_sprite-img.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/5225c7009d40677ff1977b09282ab622ec3a3418/_color.scssc" afterPath="" />
@@ -49,31 +32,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/522a34774474990fca6da21200693a674826ad2b/_sharing.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/522a34774474990fca6da21200693a674826ad2b/_sidebar.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/522a34774474990fca6da21200693a674826ad2b/_syntax.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/549daedc1309f19ea788e9cefc98b2056d3f2daa/_bullets.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/549daedc1309f19ea788e9cefc98b2056d3f2daa/_horizontal-list.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/549daedc1309f19ea788e9cefc98b2056d3f2daa/_inline-block-list.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/549daedc1309f19ea788e9cefc98b2056d3f2daa/_inline-list.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/66057bfa9480f3aeab5acae2f3a55c55fefd0192/_compass.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/68d6795f8dea47534f6b661b6d13b9ae91863c05/_layout.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/68d6795f8dea47534f6b661b6d13b9ae91863c05/_solarized.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/68d6795f8dea47534f6b661b6d13b9ae91863c05/_theme.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/68d6795f8dea47534f6b661b6d13b9ae91863c05/_typography.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/68d6795f8dea47534f6b661b6d13b9ae91863c05/_utilities.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/6c4069056c80f2a773606a697984a9e67b1a0c6d/_contrast.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/76aec172e131efed4e5d92a5b11a0af779cf6c4b/_utilities.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/76f0ea5f010ce09225a4e6e12e7f42a63978a6db/_links.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/76f0ea5f010ce09225a4e6e12e7f42a63978a6db/_lists.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/76f0ea5f010ce09225a4e6e12e7f42a63978a6db/_text.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/76f0ea5f010ce09225a4e6e12e7f42a63978a6db/_vertical_rhythm.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/7a61dafe4e558184e23d574bd507d29043541565/_base.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/7a61dafe4e558184e23d574bd507d29043541565/_delicious.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/7a61dafe4e558184e23d574bd507d29043541565/_googleplus.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/7a61dafe4e558184e23d574bd507d29043541565/_pinboard.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/7a61dafe4e558184e23d574bd507d29043541565/_twitter.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/7c43d9396fced7aa3980f31b80558d37025749cd/_color.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/7c43d9396fced7aa3980f31b80558d37025749cd/_general.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/7c43d9396fced7aa3980f31b80558d37025749cd/_sprites.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/7c43d9396fced7aa3980f31b80558d37025749cd/_tables.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/8111037dc394f8769ed6a78d02ae6dacdd29d269/_alternating-rows-and-columns.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/8111037dc394f8769ed6a78d02ae6dacdd29d269/_borders.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/8111037dc394f8769ed6a78d02ae6dacdd29d269/_scaffolding.scssc" afterPath="" />
@@ -85,10 +44,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/879d8df28459ddcf6ede56a8b8c2f6108724e330/_reset.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/879d8df28459ddcf6ede56a8b8c2f6108724e330/_tag-cloud.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/8f271e09fb3398c09634f12ed634a1cb26bd8507/_compass.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/990c092624c9293bdb2541e37c0c17c94b8a670d/_css3.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/990c092624c9293bdb2541e37c0c17c94b8a670d/_support.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/990c092624c9293bdb2541e37c0c17c94b8a670d/_typography.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/990c092624c9293bdb2541e37c0c17c94b8a670d/_utilities.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/9efef37ef23639751e39eee838b0a8e996df8be9/_appearance.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/9efef37ef23639751e39eee838b0a8e996df8be9/_background-clip.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/9efef37ef23639751e39eee838b0a8e996df8be9/_background-origin.scssc" afterPath="" />
@@ -109,58 +64,20 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/9efef37ef23639751e39eee838b0a8e996df8be9/_text-shadow.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/9efef37ef23639751e39eee838b0a8e996df8be9/_transform.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/9efef37ef23639751e39eee838b0a8e996df8be9/_transition.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/9f617598b2ebc111db6fed83254139dc6d3224ae/_grid-background.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/a819d72a7f21a3a1554393f8517aa29b649f7864/_appearance.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/a819d72a7f21a3a1554393f8517aa29b649f7864/_background-clip.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/a819d72a7f21a3a1554393f8517aa29b649f7864/_background-origin.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/a819d72a7f21a3a1554393f8517aa29b649f7864/_background-size.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/a819d72a7f21a3a1554393f8517aa29b649f7864/_border-radius.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/a819d72a7f21a3a1554393f8517aa29b649f7864/_box-shadow.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/a819d72a7f21a3a1554393f8517aa29b649f7864/_box-sizing.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/a819d72a7f21a3a1554393f8517aa29b649f7864/_box.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/a819d72a7f21a3a1554393f8517aa29b649f7864/_columns.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/a819d72a7f21a3a1554393f8517aa29b649f7864/_filter.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/a819d72a7f21a3a1554393f8517aa29b649f7864/_font-face.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/a819d72a7f21a3a1554393f8517aa29b649f7864/_hyphenation.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/a819d72a7f21a3a1554393f8517aa29b649f7864/_images.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/a819d72a7f21a3a1554393f8517aa29b649f7864/_inline-block.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/a819d72a7f21a3a1554393f8517aa29b649f7864/_opacity.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/a819d72a7f21a3a1554393f8517aa29b649f7864/_regions.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/a819d72a7f21a3a1554393f8517aa29b649f7864/_shared.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/a819d72a7f21a3a1554393f8517aa29b649f7864/_text-shadow.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/a819d72a7f21a3a1554393f8517aa29b649f7864/_transform.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/a819d72a7f21a3a1554393f8517aa29b649f7864/_transition.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/ad1b4eb93cf606102047f5f5e6b4261ac93bf015/_css3.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/ad1b4eb93cf606102047f5f5e6b4261ac93bf015/_support.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/ad1b4eb93cf606102047f5f5e6b4261ac93bf015/_typography.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/ad1b4eb93cf606102047f5f5e6b4261ac93bf015/_utilities.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/ad489256df5cbb19ee4586316c9bfe477b2ac37c/_hover-link.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/ad489256df5cbb19ee4586316c9bfe477b2ac37c/_link-colors.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/ad489256df5cbb19ee4586316c9bfe477b2ac37c/_unstyled-link.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/b98c291ed48e225bee7d370d824e55dbbd2ffaee/_links.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/b98c291ed48e225bee7d370d824e55dbbd2ffaee/_lists.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/b98c291ed48e225bee7d370d824e55dbbd2ffaee/_text.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/b98c291ed48e225bee7d370d824e55dbbd2ffaee/_vertical_rhythm.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/baed2db11fb0f7e7efe053bdb4ff264220c82fec/_base.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/baed2db11fb0f7e7efe053bdb4ff264220c82fec/_sprite-img.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/c9b7b967b506bb9ca8ad1748f3c6b2f36c718426/_alternating-rows-and-columns.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/c9b7b967b506bb9ca8ad1748f3c6b2f36c718426/_borders.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/c9b7b967b506bb9ca8ad1748f3c6b2f36c718426/_scaffolding.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/d9144c4e579d2c23663530be33d787d8ddc66c3b/_utilities.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/e0110fa80bff6a59aa5d14abf230f094513611aa/_clearfix.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/e0110fa80bff6a59aa5d14abf230f094513611aa/_float.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/e0110fa80bff6a59aa5d14abf230f094513611aa/_hacks.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/e0110fa80bff6a59aa5d14abf230f094513611aa/_min.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/e0110fa80bff6a59aa5d14abf230f094513611aa/_reset.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/e0110fa80bff6a59aa5d14abf230f094513611aa/_tag-cloud.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/e610f8965608b37e815f732229ef1db5dcb8d840/_layout.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/e610f8965608b37e815f732229ef1db5dcb8d840/_solarized.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/e610f8965608b37e815f732229ef1db5dcb8d840/_theme.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/e610f8965608b37e815f732229ef1db5dcb8d840/_typography.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/e610f8965608b37e815f732229ef1db5dcb8d840/_utilities.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/e8b6b22dfaaf28557f65a10f01ed01a68d14c0f2/_base.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/e8b6b22dfaaf28557f65a10f01ed01a68d14c0f2/_partials.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/e8b6b22dfaaf28557f65a10f01ed01a68d14c0f2/screen.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/ea5d43a8fae8358905cc9a9714b1eeac399ac6e0/_colors.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/ea5d43a8fae8358905cc9a9714b1eeac399ac6e0/_fonts.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/ea5d43a8fae8358905cc9a9714b1eeac399ac6e0/_layout.scssc" afterPath="" />
@@ -168,110 +85,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f5668b4581c73cad114767ea89d8ff9ea55f9ca2/_hover-link.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f5668b4581c73cad114767ea89d8ff9ea55f9ca2/_link-colors.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f5668b4581c73cad114767ea89d8ff9ea55f9ca2/_unstyled-link.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/CNAME" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/about/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/controlbar/background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/controlbar/blankButton.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/controlbar/divider.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/controlbar/fullscreenButton.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/controlbar/fullscreenButtonOver.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/controlbar/muteButton.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/controlbar/muteButtonOver.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/controlbar/normalscreenButton.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/controlbar/normalscreenButtonOver.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/controlbar/pauseButton.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/controlbar/pauseButtonOver.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/controlbar/playButton.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/controlbar/playButtonOver.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/controlbar/timeSliderBuffer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/controlbar/timeSliderCapLeft.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/controlbar/timeSliderCapRight.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/controlbar/timeSliderProgress.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/controlbar/timeSliderRail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/controlbar/unmuteButton.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/controlbar/unmuteButtonOver.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/display/background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/display/bufferIcon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/display/muteIcon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/display/playIcon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/dock/button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/glow.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/playlist/item.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/playlist/itemOver.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/playlist/sliderCapBottom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/playlist/sliderCapTop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/playlist/sliderRail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/playlist/sliderThumb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/sharing/embedIcon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/sharing/embedScreen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/sharing/shareIcon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/glow/sharing/shareScreen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/assets/jwplayer/player.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/atom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/blog/2013/10/05/blog/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/blog/2013/10/06/markdown-get-start/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/blog/2013/10/06/markdown-syntax/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/blog/2013/11/11/curriculum-vitae/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/blog/archives/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/blog/categories/markdown/atom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/blog/categories/markdown/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/blog/categories/个人/atom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/blog/categories/个人/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/blog/categories/博客搭建/atom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/blog/categories/博客搭建/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/font/LeagueGothic.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/DPython/abstractfactory.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/DPython/adapter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/DPython/bridge.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/DPython/builder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/DPython/chain_of_responsibility.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/DPython/command.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/DPython/composite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/DPython/decorator.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/DPython/facade.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/DPython/factorymethod.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/DPython/flyweight.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/DPython/interpreter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/DPython/iterator.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/DPython/mediator.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/DPython/memento.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/DPython/observer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/DPython/prototype.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/DPython/proxy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/DPython/simplefactory.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/DPython/singleton.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/DPython/state.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/DPython/strategy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/DPython/template_method.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/DPython/visitor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/MachineLearning/LinearRegression/batch_gradient.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/MachineLearning/LinearRegression/image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/MachineLearning/LinearRegression/stochastic_gradient.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/bird_32_gray.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/bird_32_gray_fail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/code_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/dotted-border.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/email.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/line-tile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/noise.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/rss.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/images/search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/javascripts/ender.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/javascripts/github.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/javascripts/libs/ender.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/javascripts/libs/jXHR.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/javascripts/libs/swfobject-dynamic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/javascripts/modernizr-2.0.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/javascripts/octopress.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/javascripts/pinboard.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/javascripts/twitter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/sitemap.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/stylesheets/screen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/tv/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_deploy/tv/tv.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ngot.github.io.iws" />
@@ -493,7 +306,11 @@
       <created>1384652520089</created>
       <updated>1384652520089</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="&#10;modify">
+      <created>1384652608274</created>
+      <updated>1384652608274</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">

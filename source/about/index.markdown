@@ -7,7 +7,7 @@ sharing: true
 footer: true
 ---
 
-Email: zhuanghengfei@gmail.com
+Email: ngot@ngot.com
 <br>
 Iteye: <a href="http://ngot.iteye.com">ngot.iteye.com</a>
 <br>

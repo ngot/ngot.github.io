@@ -6,6 +6,7 @@ comments: true
 sharing: true
 footer: true
 ---
+<a class="m-profile" data-width="100%" href="https://medium.com/@zhuanghengfei">庄恒飞</a>
 
 Email: ngot@ngot.com
 <br>

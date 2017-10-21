@@ -20,6 +20,10 @@
     } );
   }
 
-  init();
-
+  if (document.documentElement.clientWidth < 400) {
+    return;
+  } else {
+    init();
+  }
+  
 })();

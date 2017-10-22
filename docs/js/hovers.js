@@ -1,29 +1,33 @@
 (function() {
-  function init() {
-    var speed = 250,
-      easing = mina.easeinout;
-
-    [].slice.call ( document.querySelectorAll( '#grid > a' ) ).forEach( function( el ) {
-      var s = Snap( el.querySelector( 'svg' ) ), path = s.select( 'path' ),
-        pathConfig = {
-          from : path.attr( 'd' ),
-          to : el.getAttribute( 'data-path-hover' )
-        };
-
-      el.addEventListener( 'mouseenter', function() {
-        path.animate( { 'path' : pathConfig.to }, speed, easing );
-      } );
-
-      el.addEventListener( 'mouseleave', function() {
-        path.animate( { 'path' : pathConfig.from }, speed, easing );
-      } );
-    } );
-  }
-
-  if (document.documentElement.clientWidth < 400) {
+  if (navigator.userAgent.indexOf('iPhone') > -1) {
     return;
-  } else {
-    init();
   }
-  
+  var isMobile = false;
+  var speed = 250;
+  var easing = mina.easeinout;
+
+  [].slice.call(document.querySelectorAll('#grid > a')).forEach(function(el) {
+    var s = Snap(el.querySelector('svg'));
+    var path = s.select('path');
+    var pathConfig = {
+      from: path.attr('d'),
+      to: el.getAttribute('data-path-hover')
+    };
+
+    function adjust(param) {
+      if (!isMobile) {
+        path.animate({ 'path': param }, speed, easing);
+      }
+    }
+
+    el.addEventListener('mouseenter', () => adjust(pathConfig.to));
+    el.addEventListener('mouseleave', () => adjust(pathConfig.from));
+  });
+
+  function calcDevice() {
+      isMobile = document.documentElement.clientWidth <= 425;
+  }
+
+  calcDevice();
+  window.addEventListener('resize', calcDevice);
 })();
